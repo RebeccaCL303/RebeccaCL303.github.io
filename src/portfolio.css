@@ -1,0 +1,44 @@
+#first-row {
+ margin-top: 120px;
+}
+
+h1 {
+ font-size: 80px;
+}
+
+h2 {
+ margin-bottom: 15px;
+ font-size: 40px;
+ color: lightgray;
+}
+
+h3 {
+ font-size: 30px;
+}
+
+main section {
+ margin-bottom: 100px;
+}
+
+p {
+ opacity: 0.7;
+ font-size: 18px;
+}
+
+@media (max-width: 950px) {
+ #first-row {
+  margin-top: 40px;
+ }
+
+ h1 {
+  font-size: 60px;
+ }
+
+ h2 {
+  font-size: 40px;
+ }
+
+ h3 {
+  font-size: 20px;
+ }
+}
