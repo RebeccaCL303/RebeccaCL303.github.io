@@ -119,6 +119,10 @@ img {
  border: 3px inset var(--primary);
 }
 
+main {
+ margin: auto 2rem;
+}
+
 .mobile-format-only {
  display: none;
 }
@@ -176,6 +180,12 @@ p {
 ul {
  list-style: none;
  padding-inline-start: 0px;
+}
+
+.underline {
+ text-decoration: underline;
+ font-size: 20px;
+ line-height: 1.3;
 }
 
 @media (max-width: 950px) {
