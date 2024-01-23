@@ -1,7 +1,7 @@
 :root {
  --primary: #95b8d1;
  --secondary: #669bbc;
- --dark-gray: rgb(255, 255, 255, 0.1);
+ --dark-gray: rgb(255, 255, 255, 0.05);
 }
 
 body {
@@ -22,18 +22,18 @@ a:hover {
 }
 
 .border-link {
- color: white;
+ color: black;
  font-size: 20px;
  font-weight: 400;
  margin: 10px;
- background-color: var(--dark-gray);
+ background-color: var(--secondary);
  padding: 10px 15px;
- border: 3px inset var(--secondary);
+ border: 3px inset var(--primary);
  border-radius: 7px;
 }
 
 .border-link:hover {
- color: var(--secondary);
+ color: black;
  border: 3px outset var(--secondary);
 }
 
