@@ -4,6 +4,14 @@
  --dark-gray: rgb(255, 255, 255, 0.05);
 }
 
+.notice {
+ margin-top: 2rem;
+}
+
+.notice b {
+ color: red;
+}
+
 body {
  background-color: #1b1e1f;
  color: white;
