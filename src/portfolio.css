@@ -7,6 +7,11 @@
  display: inline-block;
 }
 
+.col-lg-4 img {
+ aspect-ratio: 6 / 4;
+ object-fit: cover;
+}
+
 h1 {
  font-size: 80px;
 }
@@ -40,6 +45,11 @@ p {
  .container {
   padding: 0 10px;
  }
+
+ .border-link {
+  font-size: 1.3rem;
+ }
+
  #first-row {
   margin-top: 40px;
  }
@@ -58,5 +68,11 @@ p {
 
  p {
   font-size: 15px;
+ }
+}
+
+@media (max-width: 850px) {
+ h2 {
+  font-size: 30px;
  }
 }
