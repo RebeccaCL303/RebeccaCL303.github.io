@@ -221,8 +221,4 @@ ul {
  h3 {
   font-size: 40px;
  }
-
- .skills {
-  grid-template-columns: 1fr 1fr;
- }
 }

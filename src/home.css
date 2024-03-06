@@ -77,4 +77,10 @@ section {
  header {
   padding-left: 10px;
  }
+
+ .skills,
+ .skills li {
+  display: block;
+  text-align: center;
+ }
 }
